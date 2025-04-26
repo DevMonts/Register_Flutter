@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Vers├úo do MSBuild 17.13.19+0d9f5a35a para .NET Framework
-      Compila├º├úo de 13/04/2025 17:20:54 iniciada.
+      Compila├º├úo de 26/04/2025 09:31:23 iniciada.
       
       Projeto "C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Aviso(s)
           0 Erro(s)
       
-      Tempo Decorrido 00:00:03.05
+      Tempo Decorrido 00:00:01.27
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8e5hsz"
-      binary: "C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8e5hsz"
+      source: "C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-7qz4yx"
+      binary: "C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-7qz4yx"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8e5hsz'
+        Change Dir: 'C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-7qz4yx'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f455.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c034a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Vers├úo do MSBuild 17.13.19+0d9f5a35a para .NET Framework
-        Compila├º├úo de 13/04/2025 17:20:59 iniciada.
+        Compila├º├úo de 26/04/2025 09:31:25 iniciada.
         
-        Projeto "C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8e5hsz\\cmTC_6f455.vcxproj" no n├│ 1 (destinos padr├úo).
+        Projeto "C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-7qz4yx\\cmTC_c034a.vcxproj" no n├│ 1 (destinos padr├úo).
         PrepareForBuild:
-          Criando o diret├│rio "cmTC_6f455.dir\\Debug\\".
+          Criando o diret├│rio "cmTC_c034a.dir\\Debug\\".
           A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
-          Criando o diret├│rio "C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8e5hsz\\Debug\\".
-          Criando o diret├│rio "cmTC_6f455.dir\\Debug\\cmTC_6f455.tlog\\".
+          Criando o diret├│rio "C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-7qz4yx\\Debug\\".
+          Criando o diret├│rio "cmTC_c034a.dir\\Debug\\cmTC_c034a.tlog\\".
         InitializeBuildStatus:
-          Criando "cmTC_6f455.dir\\Debug\\cmTC_6f455.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
-          Tocando "cmTC_6f455.dir\\Debug\\cmTC_6f455.tlog\\unsuccessfulbuild".
+          Criando "cmTC_c034a.dir\\Debug\\cmTC_c034a.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_c034a.dir\\Debug\\cmTC_c034a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6f455.dir\\Debug\\\\" /Fd"cmTC_6f455.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c034a.dir\\Debug\\\\" /Fd"cmTC_c034a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.43.34809 para x64
           Copyright (C) Microsoft Corporation. Todos os direitos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6f455.dir\\Debug\\\\" /Fd"cmTC_6f455.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c034a.dir\\Debug\\\\" /Fd"cmTC_c034a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8e5hsz\\Debug\\cmTC_6f455.exe" /INCREMENTAL /ILK:"cmTC_6f455.dir\\Debug\\cmTC_6f455.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8e5hsz/Debug/cmTC_6f455.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-8e5hsz/Debug/cmTC_6f455.lib" /MACHINE:X64  /machine:x64 cmTC_6f455.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_6f455.vcxproj -> C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8e5hsz\\Debug\\cmTC_6f455.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-7qz4yx\\Debug\\cmTC_c034a.exe" /INCREMENTAL /ILK:"cmTC_c034a.dir\\Debug\\cmTC_c034a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-7qz4yx/Debug/cmTC_c034a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Register_Flutter/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-7qz4yx/Debug/cmTC_c034a.lib" /MACHINE:X64  /machine:x64 cmTC_c034a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c034a.vcxproj -> C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-7qz4yx\\Debug\\cmTC_c034a.exe
         FinalizeBuildStatus:
-          Excluindo o arquivo "cmTC_6f455.dir\\Debug\\cmTC_6f455.tlog\\unsuccessfulbuild".
-          Tocando "cmTC_6f455.dir\\Debug\\cmTC_6f455.tlog\\cmTC_6f455.lastbuildstate".
-        Projeto de compila├º├úo pronto "C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-8e5hsz\\cmTC_6f455.vcxproj" (destinos padr├úo).
+          Excluindo o arquivo "cmTC_c034a.dir\\Debug\\cmTC_c034a.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_c034a.dir\\Debug\\cmTC_c034a.tlog\\cmTC_c034a.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Register_Flutter\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-7qz4yx\\cmTC_c034a.vcxproj" (destinos padr├úo).
         
         Compila├º├úo com ├¬xito.
             0 Aviso(s)
             0 Erro(s)
         
-        Tempo Decorrido 00:00:02.36
+        Tempo Decorrido 00:00:00.93
         
       exitCode: 0
   -

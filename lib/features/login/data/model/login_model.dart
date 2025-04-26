@@ -12,7 +12,6 @@ class LoginModel {
         id: 0,
         name: "",
         email: "",
-        password: "",
       ),
     );
   }

@@ -10,6 +10,7 @@ class LoginProvider with ChangeNotifier {
     isLoading = true;
     notifyListeners();
     try {
+      // print("teste");
       loginModel = await _repository.login(email: email, password: password);
       isLoading = false;
       print("Login bem sucedido: ${loginModel.toString()}");

@@ -6,8 +6,8 @@ class DioClient {
       : _dio = Dio(
           BaseOptions(
               baseUrl: _getBaseUrl(),
-              connectTimeout: Duration(seconds: 5),
-              receiveTimeout: Duration(seconds: 3),
+              connectTimeout: Duration(seconds: 10),
+              receiveTimeout: Duration(seconds: 10),
               headers: {
                 "Content-Type": "application/json",
                 "Accept": "application/json",
@@ -18,7 +18,7 @@ class DioClient {
               }),
         );
   static String _getBaseUrl() {
-    return 'http://192.168.1.104/';
+    return 'http://192.168.0.101:8000/';
   }
 
   static String _getApiKey() {

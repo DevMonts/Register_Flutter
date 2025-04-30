@@ -1,6 +1,6 @@
-^C:\REGISTER_FLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\91F4FE247A21F13090B1400361C8A9CB\GENERATE.STAMP.RULE
+^C:\USERS\DAVI.MONTEIRO\DESKTOP\REGISTER_FLUTTER\BUILD\WINDOWS\X64\CMAKEFILES\FE33374EAA021D4C3763F7F6951C3703\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Register_Flutter/windows -BC:/Register_Flutter/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Register_Flutter/build/windows/x64/group_system_app.sln
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/davi.monteiro/Desktop/Register_Flutter/windows -BC:/Users/davi.monteiro/Desktop/Register_Flutter/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/davi.monteiro/Desktop/Register_Flutter/build/windows/x64/group_system_app.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

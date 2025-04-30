@@ -1,4 +1,4 @@
-# Install script for directory: C:/Register_Flutter/windows/runner
+# Install script for directory: C:/Users/davi.monteiro/Desktop/Register_Flutter/windows/runner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

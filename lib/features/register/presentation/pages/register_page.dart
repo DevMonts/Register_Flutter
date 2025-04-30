@@ -1,14 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:group_system_app/common/constants/colors.dart';
 import 'package:group_system_app/common/constants/input_style.dart';
-import 'package:group_system_app/common/constants/validators.dart';
 import 'package:group_system_app/common/constants/text.dart';
+import 'package:group_system_app/common/constants/validators.dart';
 import 'package:group_system_app/common/widgets/button.dart';
+import 'package:group_system_app/features/register/data/model/register_model.dart';
+import 'package:group_system_app/features/register/logic/provider/register_provider.dart';
+import 'package:provider/provider.dart';
+
 class RegisterPage extends StatefulWidget {
   const RegisterPage({super.key});
   @override
   State<RegisterPage> createState() => _RegisterPageState();
 }
+
 class _RegisterPageState extends State<RegisterPage> {
   final _formKey = GlobalKey<FormState>();
   bool _obscureText = true;
@@ -20,11 +25,27 @@ class _RegisterPageState extends State<RegisterPage> {
       handleForm();
     }
   }
-  void handleForm() {
-    print("Name: ${_nameController.text}");
-    print("Email: ${_emailController.text}");
-    print("Password: ${_passwordController.text}");
+
+  void handleForm() async {
+    final registerProvider =
+        Provider.of<RegisterProvider>(context, listen: false);
+    final registerModel = RegisterModel(
+      name: _nameController.text,
+      email: _emailController.text,
+      password: _passwordController.text,
+    );
+    try {
+      await registerProvider.register(registerModel);
+      _nameController.clear();
+      _emailController.clear();
+      _passwordController.clear();
+      showMessagePopup(context, "Sucesso!", "Usuário cadastrado com sucesso!");
+      Navigator.pushNamed(context, "/login");
+    } catch (e) {
+      showMessagePopup(context, "Erro ao cadastrar", "Usuário já existe");
+    }
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
